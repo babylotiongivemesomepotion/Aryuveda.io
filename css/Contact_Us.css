@@ -1,0 +1,34 @@
+@import "_global.css";
+
+
+.title{
+    font-size: 48px;
+    padding-left:15px;
+}
+
+.shop{
+    margin-top: 40px;
+    margin-left: 280px;
+}
+.text{
+    margin-top: -280px;
+    margin-left: 710px;   
+}
+
+.info{
+    width: 80%;
+    height: 100px;
+}
+
+.WhatsApp{
+    display: table; 
+    font-family: sans-serif; 
+    text-decoration: none; 
+    color: #fff; 
+    font-size: 0.9em; 
+    padding: 1em 2em 1em 3.5em; 
+    border-radius: 2em; 
+    font-weight: bold; 
+    background: #25d366 url("https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg") no-repeat 1.5em center; 
+    background-size: 1.6em;
+}

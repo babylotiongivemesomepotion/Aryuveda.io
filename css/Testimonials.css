@@ -1,0 +1,21 @@
+@import "_global.css";
+
+.title{
+    font-size: 48px;
+    padding-left:15px;
+}
+
+iframe{
+    width:80%;
+    height:550px;
+    margin-left:10%;
+}
+
+button{
+    margin-left:10%;
+    margin-top:50px;
+}
+
+button>a{
+    color:black;
+}

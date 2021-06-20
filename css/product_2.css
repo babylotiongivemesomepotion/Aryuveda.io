@@ -1,0 +1,75 @@
+@import "_global.css";
+
+
+.content{
+    display:inline-flex;
+}
+
+.SideNav{
+    border-right: 5px solid black;
+    width:18%;
+    height:610px;
+    line-height: 2;
+    position: sticky;
+    top:0;
+}
+
+.title{
+    font-size: 48px;
+    padding-left:15px;
+}
+
+.SideNav>ul>li>a:hover{
+    text-shadow: 2px 2px 4px #b6ffa0;
+}
+
+.SideNav>ul>li>a{
+    color:rgb(21,82,3);
+}
+
+/*Bolding title of the page*/
+.This{
+    font-weight:bold;
+}
+
+.Text{
+    width:82%;
+    line-height: 2;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right:50px;
+}
+
+.Text>h{
+    font-weight: bold;
+}
+
+.Text>img{
+    margin-left:25%;
+}
+
+.WhatsApp{
+    display: table; 
+    font-family: sans-serif; 
+    text-decoration: none; 
+    color: #fff; 
+    font-size: 0.9em; 
+    padding: 1em 2em 1em 3.5em; 
+    border-radius: 2em; 
+    font-weight: bold; 
+    background: #25d366 url("https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg") no-repeat 1.5em center; 
+    background-size: 1.6em;
+}
+.imagetext{
+    display:inline-flex;
+}
+
+.headername{
+    margin-top: -15px;
+    margin-left: 20px;
+}
+
+.description{
+    margin-top: -5px;
+    margin-left: 20px;
+}

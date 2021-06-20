@@ -1,0 +1,250 @@
+@import "_global.css";
+
+html{
+    font-family:'Roboto';
+}
+
+.headerpic{
+    margin-top:-10px;
+    
+}
+
+
+.body{
+    height:1000px;
+    background-color: #ffffff;
+
+
+}
+
+.words{
+    text-indent: 20px;
+    display:block;
+    text-align: justify;
+    padding: 150px 300px;
+    line-height: 2;
+    margin-top: -40px;
+}
+
+h1{
+    margin-top:-100px;
+    text-align: justify;
+    padding-top: 20px;
+}
+
+p{
+    display:inline-flex;
+    margin-top: 10px;
+    flex-direction: row;
+}
+
+
+.container{
+    display:flex;
+    flex-direction: row;
+    margin-left: -200px;
+}
+
+.image_columns1{
+    background-color: grey;
+    border:1px solid transparent;
+    padding: 150px 250px;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    position:relative;
+    margin: auto;
+}
+
+.image_columns2{
+    
+    background-color: grey;
+    border:1px solid transparent;
+    padding: 150px 250px;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    margin: auto;
+
+}
+
+.button1{
+    position: absolute;
+    font-family:'Roboto';
+    margin-top:-100px;
+    font-weight:bold;
+    margin-left:65%;
+    appearance: none;
+    padding:10px 40px;
+    background-color: rgb(180, 173, 173);
+    border:1px solid transparent;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+
+.button1:hover{
+    cursor: pointer;
+    box-shadow:0 1px 4px rgba(216, 216, 216, 0.3), 0 0 40px rgb(255, 255, 255) inset;
+
+}
+
+/*///////////////////////////////////////////////div2////////////////////////////////////////////////*/
+
+
+.body1{
+    background-color: #8ae66f;
+    height:540px;
+}
+
+
+h2{
+    position: relative;
+    top:30px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px #000000;
+}
+.arrow1{
+    position:relative;
+    top:32%;
+    font-size: 60px;
+    font-weight:bold;
+    color:white;
+    left:0;
+    z-index:1;
+    
+}
+
+.arrow2{
+    position:relative;
+    top:32%;
+    font-size: 60px;
+    font-weight:bold;
+    color:white;
+    left:97%;
+    z-index:1;
+      
+}
+
+.arrow1:hover{
+    background-color: rgba(0,0,0,0.8);
+    cursor: pointer;
+}
+
+.arrow2:hover{
+    background-color: rgba(0,0,0,0.8);
+    cursor: pointer;
+}
+
+.section{
+    background-color: #8ae66f;
+    width:100%;
+    height:400px;
+    margin: -60px auto;
+    display: flex;
+    justify-content:left;
+    overflow-x: auto;
+    overflow-y: hidden;
+    
+}
+.section::-webkit-scrollbar{
+    visibility:hidden;
+}
+
+.div{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    font-weight:bold;
+    margin-top:100px;
+    margin-left:100px;
+    background-size:fill;
+    box-shadow:0 1px 2px 1px rgba(0, 0, 0, 0.3), 0 0 4px 1px rgb(10, 9, 9);
+}
+
+.div:hover{
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    cursor: pointer;
+}
+
+
+.body2{
+    background-color: #46a729;
+    height:650px;
+}
+
+.section1{
+    background-color: #46a729;
+    width:90%;
+    height:600px;
+    margin: auto;
+    display: flex;
+    justify-content:space-evenly;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.section1::-webkit-scrollbar{
+    visibility:hidden;
+}
+.div1{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    font-weight:bold;
+    margin-top:100px;
+    margin-left:50px;
+    box-shadow:0 1px 2px 1px rgba(0, 0, 0, 0.3), 0 0 4px 1px rgb(10, 9, 9);
+}
+
+
+.button2{
+    position: absolute;
+    font-family:'Roboto';
+    font-weight:bold;
+    margin-left:80.3%;
+    margin-top: 25px;
+    appearance: none;
+    padding:10px 40px;
+    background-color: rgb(180, 173, 173);
+    border:1px solid transparent;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.button2:hover{
+    cursor: pointer;
+    box-shadow:0 1px 4px rgba(216, 216, 216, 0.3), 0 0 40px rgb(255, 255, 255) inset;
+
+}
+.button3{
+    font-family:'Roboto';
+    position: absolute;
+    font-weight:bold;
+    margin-left:80.3%;
+    appearance: none;
+    margin-top: -240px;
+    padding:10px 40px;
+    background-color: rgb(180, 173, 173);
+    border:1px solid transparent;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.button3:hover{
+    cursor: pointer;
+    box-shadow:0 1px 4px rgba(216, 216, 216, 0.3), 0 0 40px rgb(255, 255, 255) inset;
+
+}
+
+.img{
+    width:300px;
+    height:200px;
+}
+
+
+.description{
+ position:relative;
+margin-top:-26px;
+border:1px solid transparent;
+background-color: rgba(241, 239, 239, 0.945);
+text-align: center;
+box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+}
+
+.ayurvedapic{
+    margin-left: 180px;
+}

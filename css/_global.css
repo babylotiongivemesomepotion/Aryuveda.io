@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+
+body{
+    padding-bottom: 150px;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+header{
+    display:inline-flex;
+    width:100%;
+    height:140px;
+    background-color: #b0fd63;
+}
+
+.nav{
+    list-style-type:none;
+    display: flex;
+    font-size:20px;
+    margin-top:90px;
+    width:1100px;
+    margin-left:230px;
+}
+
+.nav>li>a{
+    margin-inline: 15px;
+    color:rgb(21,82,3);
+}
+
+.This1{
+    font-weight: bold;
+}
+
+.nav>li>a:hover{
+
+    text-shadow: 2px 2px 4px rgb(45, 97, 29);
+}
+
+/*Ayurveda Dropdown Menu*/
+.AyuDrop{
+    line-height: 2;
+    font-size: 15px;
+    display:none;
+    z-index:1;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width:180px;
+}
+
+.AyuDrop>ul{
+    list-style-type:none;
+    padding-left:0px;
+}
+
+.AyuDrop>ul>li>a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding-left: 5px;
+}
+
+.AyuDrop>ul>li:hover{
+    background-color: lightgray;
+}
+
+.Ayu:hover .AyuDrop{
+    display: block;
+    position: absolute;
+}
+/*End of Ayurveda Dropdown Menu*/
+
+/* 3Doshas Dropdown Menu*/
+.DoDrop{
+    line-height: 2;
+    font-size: 15px;
+    display:none;
+    z-index:1;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width:180px;
+}
+
+.DoDrop>ul{
+    list-style-type:none;
+    padding-left:0px;
+}
+
+.DoDrop>ul>li>a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding-left: 5px;
+}
+
+.DoDrop>ul>li:hover{
+    background-color: lightgray;
+}
+
+.Do:hover .DoDrop{
+    display: block;
+    position: absolute;
+}
+/* End of 3Doshas Dropdown*/
+
+/* Products Dropdown */
+.ProdDrop{
+    line-height: 2;
+    font-size: 15px;
+    display:none;
+    z-index:1;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width:180px;
+}
+
+.ProdDrop>ul{
+    list-style-type:none;
+    padding-left:0px;
+} 
+
+.ProdDrop>ul>li>a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding-left: 5px;
+}
+
+.ProdDrop>ul>li:hover{
+    background-color: lightgray;
+}
+
+.Prod:hover .ProdDrop{
+    display: block;
+    position: absolute;
+}
+
+/* End of Prod Dropdown */
+
+
+.logo{
+    margin-top: -5px;
+    margin-left:30px;
+}
+
+body{
+    min-height: 100vh;
+}
+
+
+footer{
+    width:100%;
+    height:150px;
+    bottom:0;
+    position:fixed;
+    z-index: 10;
+    background-color: rgb(21,82,3);
+    display:inline-flex;
+    padding-top:10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.QuickLink{
+    margin-left: 200px;
+    width:200px;
+    color:#72ad5f;
+}
+
+.QuickLinkLists{
+    display: inline-flex;
+    width:300px;
+}
+
+
+.QuickLinkLists>div>ul>li>a{
+    color:#72ad5f;
+}
+
+.FooterContact{
+    position: relative;
+    margin-left:600px;
+    color:#72ad5f;
+    line-height: 1.5;
+}
+
+.FooterContact>div>a{
+    color:#72ad5f
+}
+
+.Copyright{
+    position: absolute;
+    display:block;
+    width:100%;
+    height:25px;
+    bottom:0;
+    text-align: center;
+    background-color: aliceblue;
+}
+

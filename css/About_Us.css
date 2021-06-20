@@ -1,0 +1,69 @@
+@import "_global.css";
+
+.title{
+    font-size: 48px;
+    padding-left:15px;
+}
+
+p{
+    text-align: justify;
+    line-height: 2;
+    margin:auto;
+}
+
+.biglogo{ 
+    margin-left: 200px;
+}
+
+.text{
+    text-indent: 20px;
+    width: 48%;
+    margin:auto;
+    padding: 15px;
+    margin-left: 570px;
+    margin-top: -350px;
+    
+}
+
+.Gallery{
+    width:80%;
+    margin:auto;
+}
+
+.Gallery>img{
+    display: inline-block;
+}
+
+.Gallery>h{
+    font-size: 36px;
+}
+
+.a,.b,.d,.e,.i,.j,.h,.l{
+    width:49.5%;
+}
+
+.g,.c,.m,.n{
+    width:33%;
+}
+
+.k{
+    width:33%;
+    margin-left:33.5%;
+}
+
+.f{
+    width:32.5%
+}
+
+.o{
+    width:32.7%;  
+}
+
+iframe{
+    width:80%;
+    height:550px;
+    margin-left:10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
